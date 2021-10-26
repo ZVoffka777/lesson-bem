@@ -1,1 +1,102 @@
+body, html {
+	background-color: #BBABA1 !important;
+	background: #BBABA1;
+}
 
+ul, li {
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+
+.menu-bar {
+	padding: 20px 0;
+	color: #212121;
+}
+
+.menu__item {
+	margin-left: 37px;
+}
+
+.menu__item a {
+	font-family: Roboto;
+	font-size: 20px;
+	color: #212121;
+}
+
+.menu__item a:hover {
+	text-decoration: none;
+	color: #868686;
+}
+
+.about {
+	text-align: center;
+}
+
+.about__title {
+	padding: 110px 0 40px 0;
+	font-weight: bold;
+} 
+
+.about__text {
+	background: #eee;
+}
+
+#center, img, p {
+     background: #eee;
+}
+
+img {
+	background: transparent;
+}
+
+.about {
+     width: 95vw;
+     height: 90vh;
+     margin: 20px auto;
+     box-shadow: 0 0 10px rgba(0,0,0,3);
+     background: #eee;
+     display: flex;
+     flex-direction: column;
+     /*justify-content: center;*/
+     align-items: center;
+     align-content: center;
+}
+
+/*hr {*/
+        /*width: 6%;*/
+        /*height: 2px;*/
+        /*margin: 1em auto;*/
+        /*border: none;*/
+        /*background: seagreen;*/
+/*}*/
+
+.footer {
+	font-family: Tahoma;
+	font-size: 20px;
+	text-align: center;
+	color: #fff;
+}
+
+.footer .about__title {
+	padding: 40px 0 20px 0;
+}
+
+.footer i {
+	font-size: 60px;
+}
+ 
+.circle {
+	background: #3949ab;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto 35px;
+}
+
+.footer p {
+	background: #BBABA1;
+}
